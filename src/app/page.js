@@ -48,7 +48,7 @@ export default function Home() {
       .from(
         myimageref.current,
         {
-          x: "200%",
+          x: "50%",
           delay: 0.5,
           opacity: 0,
           duration: 2,
@@ -80,8 +80,8 @@ export default function Home() {
           {tagline}
         </h2>
       </div>
-      <div className="mt-5 flex justify-center md:mt-0">
-        <Image ref={myimageref} width={400} height={400} className="w-1/2 md:ml-auto rounded-full" src='/profile.png' alt="Pavan MG" />
+      <div className="mt-5 md:mt-0">
+        <Image ref={myimageref} width={500} height={300} className="w-4/6 md:w-3/4 md:ml-auto" src='/profile.png' alt="Leo Funa" />
       </div>
     </main>
   );
