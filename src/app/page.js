@@ -1,7 +1,7 @@
 'use client'
 import React, { useRef, useEffect } from "react";
 import gsap from "gsap";
-import { personalDetails } from "./../utils/details";
+import { personalDetails } from "../utils/details";
 import Image from "next/image";
 
 export default function Home() {
