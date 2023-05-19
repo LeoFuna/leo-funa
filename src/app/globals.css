@@ -15,9 +15,9 @@
 .section {
   @apply pt-28 xl:pt-28 2xl:pt-44;
 }
-/* .text-content {
+.text-content {
   @apply dark:text-light-content text-dark-content;
-} */
+}
 body {
   overflow-x: hidden;
 }

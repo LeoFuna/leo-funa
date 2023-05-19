@@ -59,7 +59,7 @@ export default function Home() {
   }, []);
 
   return (
-    <main className="container mx-auto max-width section md:flex justify-between items-center">
+    <main className="container mx-auto max-width section md:flex justify-between items-center dark:bg-dark-mode">
       <div>
         <h1
           ref={h11}

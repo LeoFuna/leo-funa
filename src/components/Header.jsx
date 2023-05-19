@@ -12,7 +12,7 @@ export default function Header() {
   };
 
   return (
-    <header className="container mx-auto md:flex justify-between py-2 max-width">
+    <header className="container mx-auto md:flex justify-between py-2 max-width dark:bg-dark-mode">
       <div className="flex justify-between items-center py-2 md:py-10">
         <Link href='/'>
           <Image width={300} height={300} className="w-14" src='/logo.svg' alt="logo" />
