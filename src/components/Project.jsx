@@ -3,22 +3,26 @@ import React from "react";
 
 export default function Project({ title, imagePath, description, techstack, previewLink, githubLink }) {
   return (
-    <article className="rounded-xl mt-10 overflow-hidden shadow-xl shadow-slate-300 dark:shadow-slate-900">
-      <Image
-        width={500}
-        height={500}
-        src={imagePath}
-        title={title}
-        loading="lazy"
-        alt={`${title} logo`}
-      />
-      <div className="dark:bg-dark-card p-4">
-        <h1 className="dark:text-light-heading font-semibold text-lg pt-1">{title}</h1>
-        <p className="text-content pt-4 font-light">{description}</p>
-        <h3 className="text-dark-heading dark:text-light-heading font-medium pt-4">
-          Tech Stack : <span className="font-light">{techstack}</span>
-        </h3>
-        <div className="flex justify-between items-center mt-5">
+    <article className="flex flex-col rounded-xl bg-dark-card max-h-[600px] mt-10 overflow-hidden shadow-xl shadow-slate-300 dark:shadow-slate-900">
+      <div className="h-2/6">
+        <Image
+          width={300}
+          height={300}
+          src={imagePath}
+          title={title}
+          loading="lazy"
+          alt={`${title} logo`}
+        />
+      </div>
+      <div className="dark:bg-dark-card flex-1 p-4 flex flex-col justify-between">
+        <div>
+          <h1 className="dark:text-light-heading font-semibold text-lg pt-1">{title}</h1>
+          <p className="text-content pt-4 font-light">{description}</p>
+          <h3 className="text-dark-heading dark:text-light-heading font-medium pt-4">
+            Tech Stack : <span className="font-light">{techstack}</span>
+          </h3>
+        </div>
+        <div className="flex justify-between items-center">
           <div className="flex items-center">
             <svg
               className="stroke-dark-heading dark:stroke-white inline-block min-w-fit"
