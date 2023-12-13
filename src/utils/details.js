@@ -46,6 +46,14 @@ export const eduDetails = [
 
 export const projectDetails = [
   {
+    title: "Chat With Anyone",
+    imagePath: '/projects/chat-with-anyone.png',
+    description: `Projeto simulando um SAAS de chat, onde o usuário pode falar com qualquer pessoa do mundo sem barreiras de idioma`,
+    techstack: "Next 13, Typescript, Tailwind CSS, Firebase, noSQL Database, oAuth, Zustand, Stripe",
+    previewLink: "https://chat-with-anyone-two.vercel.app/",
+    githubLink: "https://github.com/LeoFuna/chat-with-anyone",
+  },
+  {
     title: "Account Manager",
     imagePath: '/projects/generalbg.jpg',
     description: `Nesse projeto desenvolvi uma api que visa simular interações de contas em um banco. Alguns exemplo: transferir, depositar, saldo`,
@@ -65,7 +73,7 @@ export const projectDetails = [
     title: "Gestor de Milhas",
     imagePath: '/projects/handlemiles.png',
     description: `Sistema básico para gestão de milhas e pontos das companhias aéreas`,
-    techstack: "React, Next Js, Firebase, noSQL Database, Typescript, Cache, Material UI, React Hook Form",
+    techstack: "React, Next Js, Firebase, noSQL DB, Typescript, Cache, Material UI",
     previewLink: "https://handle-miles.vercel.app/auth/signin",
     githubLink: "https://github.com/LeoFuna/handle-miles",
   },

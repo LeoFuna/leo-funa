@@ -81,7 +81,16 @@ export default function Home() {
         </h2>
       </div>
       <div className="mt-5 md:mt-0">
-        <Image ref={myimageref} width={500} height={300} className="w-4/6 md:w-3/4 md:ml-auto" src='/profile.png' alt="Leo Funa" />
+        <Image
+          ref={myimageref}
+          width={500}
+          height={300}
+          className="w-4/6 md:w-3/4 md:ml-auto"
+          src='/profile.png'
+          alt="Leo Funa"
+          priority
+          unoptimized
+        />
       </div>
     </main>
   );
