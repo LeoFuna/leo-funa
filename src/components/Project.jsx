@@ -6,8 +6,8 @@ export default function Project({ title, imagePath, description, techstack, prev
     <article className="flex flex-col rounded-xl bg-dark-card max-h-[600px] mt-10 overflow-hidden shadow-xl shadow-slate-300 dark:shadow-slate-900">
       <div className="h-2/6">
         <Image
-          width={300}
-          height={300}
+          width={800}
+          height={800}
           src={imagePath}
           title={title}
           loading="lazy"
