@@ -12,6 +12,13 @@ export const socialMediaUrl = {
 
 export const workDetails = [
   {
+    Position: "Tech Foundation Software Engineer",
+    Company: "Clearviction",
+    Location: "Washington - Estados Unidos",
+    Type: "Remoto",
+    Duration: "Jul 2023 - Atual",
+  },
+  {
     Position: "Desenvolvedor Full Stack Pleno",
     Company: "Digital Republic",
     Location: "SP - Brasil",
