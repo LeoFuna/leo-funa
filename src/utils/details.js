@@ -54,6 +54,14 @@ export const projectDetails = [
     githubLink: "https://github.com/LeoFuna/chat-with-anyone",
   },
   {
+    title: "Gestor de Gastos",
+    imagePath: '/projects/expenses-manager.png',
+    description: `Projeto desenvolvido para gerenciar gastos pessoais mensais, facilitando em saber quanto se pode gastar no mês`,
+    techstack: "NextJS, Typescript, Tailwind CSS, Firebase, noSQL Database, oAuth, Zod, React Hook Form",
+    previewLink: "https://expense-manager-pink.vercel.app/",
+    githubLink: "https://github.com/LeoFuna/expense-manager",
+  },
+  {
     title: "Account Manager",
     imagePath: '/projects/generalbg.jpg',
     description: `Nesse projeto desenvolvi uma api que visa simular interações de contas em um banco. Alguns exemplo: transferir, depositar, saldo`,
